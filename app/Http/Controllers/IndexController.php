@@ -32,9 +32,20 @@ class IndexController extends Controller
 					'data-message-required'=>'请输入标签名称！'
 
     			],
-          'p_class'=>'',
+          		'p_class'=>'',
     		],
+    		[
+    			'type'=>'ueditor',
+    			'label'=>'标签',
+    			'attr'=>[
+           			'name'=>'titlex',
+           			'id'=>'titlexx',
+           			'data-validate'=>'required',
+					'data-message-required'=>'请输入标签名称！'
 
+    			],
+          		'p_class'=>'',
+    		],
     		[
     			'type'=>'submit',
     			'label'=>'增加',
